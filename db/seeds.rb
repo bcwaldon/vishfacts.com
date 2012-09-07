@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Fact.create([
+  {body: "Vish doesn't sleep. He waits.", disabled: false},
+  {body: "Vish merges to master from the past. In utero.", disabled: false},
+  {body: "Vish lives vicariously through himself.", disabled: false}
+])
